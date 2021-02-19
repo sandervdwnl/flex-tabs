@@ -1,0 +1,35 @@
+#tabs {
+    max-width: 900px;
+    margin: auto;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.col-50 {
+    width: 50%;
+    margin: auto;
+}
+
+.button {
+padding: 7px;
+border-radius: 4px;
+background-color: rgb(0, 127, 255);
+color: white;
+}
+
+.ui-widget-header {
+    background-color: darkblue;
+}
+
+.button:hover {
+    background-color: cornsilk;
+}
+
+.ui-state-active {
+    background-color: blue;
+}
+
